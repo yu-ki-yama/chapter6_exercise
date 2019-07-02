@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.main-visual{
+    height: 400px;
+    width: 1920px;
+    background: url(img/mv.jpg);
+    background-position-y: bottom;
+    background-size: auto 840px;
+    padding: 20px 0 0 20px;
+}
+
+.blog-title{
+    color: dimgray;
+}
+
+main{
+    width: 840px;
+    margin: 0 auto;
+    padding: 20px 0 50px;
+}
+
+.blog-box{
+    padding: 30px 0;
+    border-bottom: solid 1px gray;
+}
